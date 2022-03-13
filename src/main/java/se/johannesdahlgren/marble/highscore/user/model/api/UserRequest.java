@@ -7,6 +7,6 @@ import javax.validation.constraints.NotNull;
 
 public record UserRequest(@NotNull String firstName, @NotNull String lastName, @NotNull @Email String email) {
     public User toUser() {
-        return new User(null, firstName, lastName, email);
+        return new User(firstName, lastName, email);
     }
 }

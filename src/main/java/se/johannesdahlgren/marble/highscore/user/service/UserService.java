@@ -6,7 +6,6 @@ import se.johannesdahlgren.marble.highscore.user.model.domain.User;
 import se.johannesdahlgren.marble.highscore.user.repository.UserRepository;
 
 import java.util.List;
-import java.util.UUID;
 
 @Service
 public class UserService {
@@ -17,20 +16,20 @@ public class UserService {
     }
 
     public User createUser(User user) {
-        UserDb userDbInput = UserDb.fromUser(user);
-        return userRepository.save(userDbInput)
+        UserDb userDb = UserDb.fromUser(user);
+        return userRepository.createUser(userDb)
                 .toUser();
     }
 
     public List<User> getUsers() {
-        return userRepository.findAll()
+        return userRepository.getUsers()
                 .stream()
                 .map(UserDb::toUser)
                 .toList();
     }
 
-    public User getUser(UUID userId) {
-        return userRepository.getById(userId)
+    public User getUser(String email) {
+        return userRepository.getUser(email)
                 .toUser();
     }
 }

@@ -8,7 +8,6 @@ import se.johannesdahlgren.marble.highscore.user.service.UserService;
 
 import javax.validation.Valid;
 import java.util.List;
-import java.util.UUID;
 
 @RestController
 @RequestMapping("users")
@@ -33,9 +32,9 @@ public class UserController {
                 .toList();
     }
 
-    @GetMapping("/{userId}")
-    public UserResponse getUser(@PathVariable UUID userId) {
-        User user = userService.getUser(userId);
+    @GetMapping("/{email}")
+    public UserResponse getUser(@PathVariable String email) {
+        User user = userService.getUser(email);
         return UserResponse.fromUser(user);
     }
 }
