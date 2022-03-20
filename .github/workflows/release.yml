@@ -1,0 +1,17 @@
+name: Relese
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build and test
+        uses: ./.github/workflows/build-and-test.yml
+      - uses: actions/checkout@v2
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile --tag $GITHUB_REF_NAME:$(date +%s)
+
+
