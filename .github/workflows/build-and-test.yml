@@ -22,3 +22,8 @@ jobs:
           cache: maven
       - name: Build with Maven
         run: mvn -B package --file pom.xml
+      - name: Upload jars
+        uses: actions/upload-artifact@v3
+        with:
+          name: user
+          path: user/target/user-*.jar
