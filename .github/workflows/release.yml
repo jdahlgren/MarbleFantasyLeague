@@ -5,12 +5,13 @@ on:
       - created
 
 jobs:
+  build:
+    name: Build and test
+    uses: ./.github/workflows/build-and-test.yml
   release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Build and test
-        uses: ./.github/workflows/build-and-test.yml
       - name: Build the Docker image
         run: docker build . --file Dockerfile --tag $GITHUB_REF_NAME:$(date +%s)
 
