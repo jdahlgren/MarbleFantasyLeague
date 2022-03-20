@@ -1,8 +1,8 @@
-package se.johannesdahlgren.marble.highscore.user.config;
+package se.johannesdahlgren.marble.fantasyleague.user.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import se.johannesdahlgren.marble.highscore.user.model.db.UserDb;
+import se.johannesdahlgren.marble.fantasyleague.user.model.db.UserDb;
 import software.amazon.awssdk.auth.credentials.EnvironmentVariableCredentialsProvider;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedClient;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;

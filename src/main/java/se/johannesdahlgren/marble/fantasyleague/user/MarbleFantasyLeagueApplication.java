@@ -1,13 +1,13 @@
-package se.johannesdahlgren.marble.highscore.user;
+package se.johannesdahlgren.marble.fantasyleague.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MarbleHighScoreUserServiceApplication {
+public class MarbleFantasyLeagueApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MarbleHighScoreUserServiceApplication.class, args);
+        SpringApplication.run(MarbleFantasyLeagueApplication.class, args);
     }
 
 }

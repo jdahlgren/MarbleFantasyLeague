@@ -1,6 +1,6 @@
-package se.johannesdahlgren.marble.highscore.user.repository;
+package se.johannesdahlgren.marble.fantasyleague.user.repository;
 
-import se.johannesdahlgren.marble.highscore.user.model.db.UserDb;
+import se.johannesdahlgren.marble.fantasyleague.user.model.db.UserDb;
 
 import java.util.List;
 

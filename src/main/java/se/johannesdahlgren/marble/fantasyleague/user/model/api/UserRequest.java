@@ -1,6 +1,6 @@
-package se.johannesdahlgren.marble.highscore.user.model.api;
+package se.johannesdahlgren.marble.fantasyleague.user.model.api;
 
-import se.johannesdahlgren.marble.highscore.user.model.domain.User;
+import se.johannesdahlgren.marble.fantasyleague.user.model.domain.User;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;

@@ -1,8 +1,8 @@
-package se.johannesdahlgren.marble.highscore.user.repository;
+package se.johannesdahlgren.marble.fantasyleague.user.repository;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
-import se.johannesdahlgren.marble.highscore.user.model.db.UserDb;
+import se.johannesdahlgren.marble.fantasyleague.user.model.db.UserDb;
 import software.amazon.awssdk.enhanced.dynamodb.DynamoDbTable;
 import software.amazon.awssdk.enhanced.dynamodb.Key;
 

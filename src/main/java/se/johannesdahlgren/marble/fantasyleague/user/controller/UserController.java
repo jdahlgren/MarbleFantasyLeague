@@ -1,10 +1,10 @@
-package se.johannesdahlgren.marble.highscore.user.controller;
+package se.johannesdahlgren.marble.fantasyleague.user.controller;
 
 import org.springframework.web.bind.annotation.*;
-import se.johannesdahlgren.marble.highscore.user.model.api.UserRequest;
-import se.johannesdahlgren.marble.highscore.user.model.api.UserResponse;
-import se.johannesdahlgren.marble.highscore.user.model.domain.User;
-import se.johannesdahlgren.marble.highscore.user.service.UserService;
+import se.johannesdahlgren.marble.fantasyleague.user.model.api.UserRequest;
+import se.johannesdahlgren.marble.fantasyleague.user.model.api.UserResponse;
+import se.johannesdahlgren.marble.fantasyleague.user.model.domain.User;
+import se.johannesdahlgren.marble.fantasyleague.user.service.UserService;
 
 import javax.validation.Valid;
 import java.util.List;

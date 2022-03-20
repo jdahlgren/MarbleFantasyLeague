@@ -1,6 +1,6 @@
-package se.johannesdahlgren.marble.highscore.user.model.db;
+package se.johannesdahlgren.marble.fantasyleague.user.model.db;
 
-import se.johannesdahlgren.marble.highscore.user.model.domain.User;
+import se.johannesdahlgren.marble.fantasyleague.user.model.domain.User;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbPartitionKey;
 

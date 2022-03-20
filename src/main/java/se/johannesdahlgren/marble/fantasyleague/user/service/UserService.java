@@ -1,9 +1,9 @@
-package se.johannesdahlgren.marble.highscore.user.service;
+package se.johannesdahlgren.marble.fantasyleague.user.service;
 
 import org.springframework.stereotype.Service;
-import se.johannesdahlgren.marble.highscore.user.model.db.UserDb;
-import se.johannesdahlgren.marble.highscore.user.model.domain.User;
-import se.johannesdahlgren.marble.highscore.user.repository.UserRepository;
+import se.johannesdahlgren.marble.fantasyleague.user.model.db.UserDb;
+import se.johannesdahlgren.marble.fantasyleague.user.model.domain.User;
+import se.johannesdahlgren.marble.fantasyleague.user.repository.UserRepository;
 
 import java.util.List;
 

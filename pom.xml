@@ -8,11 +8,11 @@
         <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>se.johannesdahlgren.marble.highscore</groupId>
-    <artifactId>userservice</artifactId>
+    <groupId>se.johannesdahlgren.marble</groupId>
+    <artifactId>fantasyleague</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MarbleHighScoreUserService</name>
-    <description>MarbleHighScoreUserService</description>
+    <name>MarbleFantasyLeague</name>
+    <description>MarbleFantasyLeague</description>
     <properties>
         <java.version>17</java.version>
     </properties>
