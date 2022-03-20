@@ -5,12 +5,12 @@
     <parent>
         <groupId>se.johannesdahlgren.marble</groupId>
         <artifactId>fantasyleague</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>se.johannesdahlgren.marble.fantasyleague</groupId>
     <artifactId>user</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>user</name>
     <description>user</description>
     <properties>
