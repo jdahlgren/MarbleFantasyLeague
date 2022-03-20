@@ -6,7 +6,7 @@
         <groupId>se.johannesdahlgren.marble</groupId>
         <artifactId>fantasyleague</artifactId>
         <version>0.0.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>se.johannesdahlgren.marble.fantasyleague</groupId>
     <artifactId>user</artifactId>
